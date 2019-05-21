@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'onepage#index'
+  root to: 'onepage#index'
+
   get 'onepage/index'
   resources :posts
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
